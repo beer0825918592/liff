@@ -159,14 +159,14 @@
 	  document.getElementById("isLoggedIn").append(liff.isLoggedIn())
 	  if(liff.isLoggedIn()){
 	  
-	   
+	   getEnvironment()
        getUserProfile()
        getContext()
        getFriendship()
 	  // createUniversalLink()
 	  }else{
 	  alert("No Login")
-	  getEnvironment()
+	  
 	  liff.login()
 	  
 	  }
