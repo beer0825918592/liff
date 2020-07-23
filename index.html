@@ -73,7 +73,7 @@
 
     async function getUserProfile() {
 	const profile = await liff.getProfile()
-	document.getElementById("pictureUrl").src =profile.pictureUrl
+	document.getElementById("pictureUrl").src = profile.pictureUrl
 	document.getElementById("userId").append(profile.userId)
 	document.getElementById("statusMessage").append(profile.statusMessage)
 	document.getElementById("displayName").append(profile.displayName)
@@ -91,7 +91,7 @@
 	   
 	   }else {
 	   document.getElementById("btnLogOut").style.display = "none"
-	   document.getElementById("btnMsg").style.display = "none"
+	   document.getElementById("btnScanCode").style.display = "none"
 	   document.getElementById("btnClose").style.display = "none"
 	   }
 	  
